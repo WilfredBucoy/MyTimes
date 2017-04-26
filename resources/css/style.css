@@ -1,0 +1,48 @@
+div {
+	border: 1px solid red;
+}
+#header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+#logo {
+	display: flex;
+	color: MediumAquamarine;
+	padding: 0px 0px 0px 30px;
+	height:60px;
+
+}
+#logo span{
+	margin-left: 20px;
+	padding-top: 10px;
+	vertical-align: middle;
+}
+.logo {
+	vertical-align: middle;
+}
+#navigation {
+	display: flex;
+}
+#navigation li {
+	display: inline-block;
+}
+#container {
+	display: inline-flex;
+	height: 200px;
+}
+.column.large {
+	width: 630px;
+	height: 200px;
+}
+
+.column.medium {
+	width: 300px;
+	height: 200px;
+}
+
+.column.small {
+	width: 240px;
+	height:200px;
+}
